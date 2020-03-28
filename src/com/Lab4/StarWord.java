@@ -5,7 +5,6 @@ public class StarWord {
     private String word;
     private String starredWord;
     private int method;
-    private String met;
     private StringBuffer sb;
     int len;
     //int length = word.length();
@@ -88,6 +87,7 @@ public class StarWord {
     }
 
     public String getMet(){
+        String met;
         switch (method){
             case 1:
                 met = "Vowels method";
@@ -108,6 +108,7 @@ public class StarWord {
     }
 
     public String getStarredWord(){
+
         return starredWord;
     }
     //.toString()
