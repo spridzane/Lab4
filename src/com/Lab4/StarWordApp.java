@@ -12,8 +12,6 @@ public class StarWordApp {
         //declare objects - scanner and StarWord class
         Scanner sc = new Scanner(System.in);
         StarWord sw = new StarWord();
-        //System.out.println("Please enter a word:");
-        //word = sc.next();
 
         //input
         while (ans.equals("y")){
@@ -22,10 +20,10 @@ public class StarWordApp {
             sw.setWord(word);
             //"Please choose which method to use" (Switch Case or IF Else) while choose the right number
             System.out.println("Please choose which method to use:" +
-                    " 1 - Vowels method," +
-                    " 2 - Stars method," +
-                    " 3 - PigLatin method," +
-                    " 4 - Reverse method. ");
+                    " \n 1 - Vowels" +
+                    " \n 2 - Stars" +
+                    " \n 3 - PigLatin" +
+                    " \n 4 - Reverse ");
             method = sc.nextInt();
             sw.setMethod(method);
             //process

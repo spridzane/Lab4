@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7351d262-618c-4eed-99ac-840fa4c702e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Lab4/StarWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Lab4/StarWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab4/com/Lab4/StarWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab4/com/Lab4/StarWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab4/com/Lab4/StarWordApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab4/com/Lab4/StarWordApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Lab4/StarWordApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Lab4/StarWordApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +30,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Zd4v0A1ukcNGDtKFgb9MIO6ZR5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,11 +41,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab5" />
   </component>
-  <component name="RunManager" selected="Application.StarWordApp">
-    <configuration name="Encoder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Lab4.Encoder" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Revision" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HangmanZ">
+    <configuration name="HangmanGitHUb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab4.HangmanGitHUb" />
       <module name="Lab4" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinesPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Lab4.LinesPrinter" />
+    <configuration name="HangmanZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab4.HangmanZ" />
       <module name="Lab4" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PigLatinApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Lab4.PigLatinApp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab4.Main" />
       <module name="Lab4" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SentenceCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Lab4.SentenceCounter" />
+    <configuration name="SpacesRemoverApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Revision.SpacesRemoverApp" />
       <module name="Lab4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Lab4.*" />
+          <option name="PATTERN" value="Revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarWordApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Lab4.StarWordApp" />
+    <configuration name="StarWordApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Lab4.StarWordApp2" />
       <module name="Lab4" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StarWordApp" />
-        <item itemvalue="Application.PigLatinApp" />
-        <item itemvalue="Application.LinesPrinter" />
-        <item itemvalue="Application.Encoder" />
-        <item itemvalue="Application.SentenceCounter" />
+        <item itemvalue="Application.HangmanZ" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HangmanGitHUb" />
+        <item itemvalue="Application.StarWordApp2" />
+        <item itemvalue="Application.SpacesRemoverApp" />
       </list>
     </recent_temporary>
   </component>
@@ -129,29 +138,65 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1585345172909">
+    <state x="913" y="86" width="453" height="563" key="#com.intellij.ide.util.MemberChooser" timestamp="1586091539139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585345172909" />
-    <state width="1323" height="101" key="GridCell.Tab.0.bottom" timestamp="1585380321447">
+    <state x="913" y="86" width="453" height="563" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586091539139" />
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585387272174">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="101" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585380321447" />
-    <state width="1323" height="101" key="GridCell.Tab.0.center" timestamp="1585380321447">
+    <state x="434" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1585387272174" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1587149634175">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="101" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585380321447" />
-    <state width="1323" height="101" key="GridCell.Tab.0.left" timestamp="1585380321447">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587149634175" />
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom" timestamp="1586786151826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="101" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585380321447" />
-    <state width="1323" height="101" key="GridCell.Tab.0.right" timestamp="1585380321447">
+    <state width="1323" height="123" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586786151826" />
+    <state width="1323" height="123" key="GridCell.Tab.0.center" timestamp="1586786151826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="101" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585380321447" />
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1585340252210">
+    <state width="1323" height="123" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586786151826" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left" timestamp="1586786151826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585340252210" />
+    <state width="1323" height="123" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586786151826" />
+    <state width="1323" height="123" key="GridCell.Tab.0.right" timestamp="1586786151826">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="123" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586786151826" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1585516581123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585516581123" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1585516581123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585516581123" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1585516581123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585516581123" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1585516581123">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585516581123" />
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586966517643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586966517643" />
+    <state x="65" y="0" key="new project wizard" timestamp="1586453772643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586453772643" />
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1585488389725">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="425" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1585488389725" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586784327442">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586784327442" />
   </component>
 </project>
